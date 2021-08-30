@@ -1,0 +1,5 @@
+.idea
+.venv
+.ipynb_checkpoints
+**/*.png
+!images/average_400d_1000000i_magma_white.png
