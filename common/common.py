@@ -56,3 +56,8 @@ def create_histogram(days: int, iterations: int, balls: list[int], precision=0.0
 def normalize_histogram(hist):
     total = sum(hist.T[0])
     return hist / total
+
+
+def log_of(data):
+    log_data = np.ma.log10(data)
+    return log_data.filled(log_data.min())
