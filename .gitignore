@@ -1,6 +1,6 @@
 .idea
 .venv
-.ipynb_checkpoints
+**/ipynb_checkpoints
 **/*.png
 !images/image.png
 !images/dev.png
